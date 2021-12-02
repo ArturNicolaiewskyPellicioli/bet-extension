@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverse Word</title>
+    <script src="script.js"></script>
+  </head>
+  <body style="margin: 0; background-color: #393942; color: white">
+    <div style="margin: 1rem">
+      <label style="gap: 1rem">Jogador 1</label>
+      <input
+        style="
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          margin-top: 0.5rem;
+          border-radius: 15px;
+        "
+        id="player1"
+        type="text"
+      />
+      <label style="gap: 1rem">Jogador 2</label>
+      <input
+        style="
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          margin-top: 0.5rem;
+          border-radius: 15px;
+        "
+        id="player2"
+        type="text"
+      />
+      <button style="margin-bottom: 1rem" id="btn">BET</button>
+
+      <div hidden id="resultContainer">
+        <span
+          >O Jogador <b><span id="result"></span></b> vai ganhar</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
